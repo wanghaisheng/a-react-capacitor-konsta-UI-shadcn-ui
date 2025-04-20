@@ -1,0 +1,119 @@
+{
+  "common": {
+    "loading": "Loading...",
+    "error": "Error",
+    "retry": "Retry",
+    "cancel": "Cancel",
+    "confirm": "Confirm",
+    "save": "Save",
+    "delete": "Delete",
+    "edit": "Edit"
+  },
+  "auth": {
+    "login": "Login",
+    "register": "Register",
+    "logout": "Logout",
+    "email": "Email",
+    "password": "Password",
+    "confirmPassword": "Confirm Password",
+    "forgotPassword": "Forgot Password?"
+  },
+  "home": {
+    "title": "Home",
+    "welcome": "Welcome to {{appName}}",
+    "greeting": "Hello",
+    "guest": "Guest",
+    "welcomeBack": "Welcome back!",
+    "streak": "Current Streak",
+    "days": "days",
+    "todayTasks": "Today's Tasks",
+    "todayProgress": "Today's Progress",
+    "yourAffirmations": "Your Affirmations",
+    "viewAll": "View All",
+    "morning": "Morning",
+    "afternoon": "Afternoon",
+    "evening": "Evening",
+    "completeNow": "Complete Now"
+  },
+  "nav": {
+    "home": "Home",
+    "wishes": "Wishes",
+    "progress": "Progress",
+    "leaderboard": "Leaderboard",
+    "profile": "Profile"
+  },
+  "dashboard": {
+    "title": "Dashboard",
+    "stats": {
+      "totalWishes": "Total Wishes",
+      "completedWishes": "Completed Wishes",
+      "inProgressWishes": "In Progress Wishes"
+    }
+  },
+  "wish": {
+    "title": "Wish Setting",
+    "create": "Create Wish",
+    "edit": "Edit Wish",
+    "delete": "Delete Wish",
+    "name": "Wish Name",
+    "description": "Description",
+    "deadline": "Deadline",
+    "priority": "Priority",
+    "status": "Status"
+  },
+  "progress": {
+    "title": "Progress",
+    "total": "Total Progress",
+    "today": "Today's Progress",
+    "week": "This Week",
+    "month": "This Month"
+  },
+  "leaderboard": {
+    "title": "Leaderboard",
+    "rank": "Rank",
+    "name": "Name",
+    "score": "Score",
+    "progress": "Progress"
+  },
+  "profile": {
+    "title": "Profile",
+    "basicInfo": "Basic Information",
+    "settings": "Settings",
+    "theme": "Theme",
+    "language": "Language",
+    "notifications": "Notifications"
+  },
+  "community": {
+    "title": "Community",
+    "posts": "Posts",
+    "comments": "Comments",
+    "likes": "Likes",
+    "share": "Share"
+  },
+  "statistics": {
+    "title": "Statistics",
+    "overview": "Overview",
+    "trends": "Trends",
+    "analysis": "Analysis"
+  },
+  "writing": {
+    "title": "Writing Practice",
+    "start": "Start Writing",
+    "continue": "Continue Writing",
+    "save": "Save Draft",
+    "publish": "Publish"
+  },
+  "about": {
+    "title": "About",
+    "version": "Version",
+    "description": "Description",
+    "contact": "Contact Us"
+  },
+  "paywall": {
+    "title": "Premium Features",
+    "subscribe": "Subscribe Now",
+    "features": "Premium Features",
+    "price": "Price",
+    "period": "Period"
+  }
+} 
