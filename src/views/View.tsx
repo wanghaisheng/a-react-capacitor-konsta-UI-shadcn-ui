@@ -1,25 +1,25 @@
-import { Block, BlockTitle, Navbar, NavbarBackLink, Page } from "konsta/react";
-import { useNavigate } from "react-router-dom";
+import { useTranslation } from 'react-i18next';
 
-export function View() {
-  const navigate = useNavigate();
+export default function View() {
+  const { t } = useTranslation();
 
   return (
-    <Page>
-      <Navbar
-        title="Other View"
-        left={<NavbarBackLink onClick={() => navigate("/")} />}
-      />
+    <div className="min-h-screen bg-purple-50">
+      <header className="bg-white shadow-sm p-4">
+        <div className="flex justify-between items-center">
+          <h1 className="text-lg font-bold text-purple-700">
+            {t('view.title')}
+          </h1>
+        </div>
+      </header>
 
-      <BlockTitle>Other view</BlockTitle>
-
-      <Block strong inset className="space-y-4">
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam odit
-          magni a sit hic possimus ab unde voluptatum nisi labore, minus sint
-          quas blanditiis totam molestiae culpa corrupti corporis nemo?
-        </p>
-      </Block>
-    </Page>
+      <main className="p-4">
+        <div className="bg-white rounded-xl p-4 shadow-sm">
+          <p className="text-gray-600">
+            {t('view.content')}
+          </p>
+        </div>
+      </main>
+    </div>
   );
 }
